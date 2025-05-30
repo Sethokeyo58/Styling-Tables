@@ -8,7 +8,7 @@ th, td {
     text-align: left;
 }
 th {
-    background-color: #F2F2F2;
+    background-color:#368aeb;
 }
 
 .t {
@@ -21,28 +21,21 @@ th {
     padding: 10px;
     text-align: left;
 }
-.t tr:nth-child(even) {
-    background-color: rgb(205, 205, 220);
+.t tr {
+    background-color: rgba(57, 233, 22, 0.801);
 }
 .t tr:hover {
-    background-color: #E0F7FA;
+    background-color: #368aeb;
 }
 .t th {
-    background-color: #74428b;
+    background-color: #368aeb;
     color: rgb(255, 255, 255);
 }
 
-.t {
-    background-color: rgb(205, 205, 220);
-}
-
-.A {
-    background-color:rgb(102, 98, 105);
-
-}
 
 h1{
     
     text-decoration: underline;
     text-align: center;
+    
 }
