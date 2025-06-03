@@ -4,7 +4,7 @@ table {
 }
 th, td {
     border: 1px solid #333;
-    padding: 8px;
+    padding: 5px;
     text-align: left;
 }
 th {
@@ -18,7 +18,7 @@ th {
 }
 .t th, td {
     border: 1px solid #ddd;
-    padding: 10px;
+    padding: 5px;
     text-align: left;
 }
 .t tr {

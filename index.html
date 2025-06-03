@@ -3,256 +3,146 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
+    <title>Apply to Zindua School</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+        }
+        
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            color: #7f8c8d;
+            margin-bottom: 30px;
+        }
+        
+        hr {
+            border: 0;
+            height: 1px;
+            background-color: #ecf0f1;
+            margin: 20px 0;
+        }
+        
+        .form-group {
+            margin-bottom: 20px;
+        }
+        
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+        
+        label.required:after {
+            content: " *";
+            color: #e74c3c;
+        }
+        
+        input, select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #bdc3c7;
+            border-radius: 4px;
+            font-size: 16px;
+            box-sizing: border-box;
+        }
+        
+        .name-fields {
+            display: flex;
+            gap: 15px;
+        }
+        
+        .name-fields .form-group {
+            flex: 1;
+        }
+        
+        .example {
+            color: #7f8c8d;
+            font-size: 14px;
+            margin-top: 5px;
+        }
+        
+        .submit-btn {
+            background-color: #3498db;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            font-size: 16px;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+        }
+        
+        .submit-btn:hover {
+            background-color: #2980b9;
+        }
+    </style>
 </head>
 <body>
-   <h1> CLASS OF 2025</h1> <hr>
-    <table>
-        <thead>
-            <tr>
-                <th>First Name</th>
-                <th>Second Name</th>
-                <th>Date of Admission</th>
-                <th>Phone Number</th>
-                <th>Residential Area</th>
-                <th>Course Name</th>
-                <th>Attendance Record</th>
-                <th>Technical Mentor</th>
-                <th>Email Address</th>
-                <th>Classes Attended</th>
-                <th>Year of Birth</th>
-                <th>Alternative Contact</th>
-                <th>Student ID</th>
-                <th>Graduation Date</th>
-                <th>Cohort</th>
-            </tr>
-        </thead>
-        <tbody class="t">
-                <td>Seth</td>
-                <td>Okeyo</td>
-                <td>20<sup>th</sup>May 2025</td>
-                <td>0758477179</td>
-                <td>FahariBD</td>
-                <td>Software Engineering</td>
-                <td>Good</td>
-                <td>Mr. Ezekiel</td>
-                <td>Sethokeyo58@gmail.com</td>
-                <td>100%</td>
-                <td>2010</td>
-                <td>0758259498</td>
-                <td>SI0143546</td>
-                <td>24<sup>th</sup>October 2025</td>
-                <td>5</td>
-            </tr>
-                <td>Sean</td>
-                <td>Alex</td>
-                <td>19<sup>th</sup>May 2025</td>
-                <td>0798766454</td>
-                <td>Westlands</td>
-                <td>Software Engineering</td>
-                <td>Good</td>
-                <td>Mr. Ezekiel</td>
-                <td>seangachango@gmail.com</td>
-                <td>100%</td>
-                <td>2007</td>
-                <td>0789765456</td>
-                <td>SI987690</td>
-                <td>24<sup>th</sup>October 2025</td>
-                <td>5</td>
-            <tr>
-                </tr>
-                <td>Goi</td>
-                <td>Naath</td>
-                <td>24<sup>th</sup>May 2025</td>
-                <td>0798790543</td>
-                <td>Kahawa Sukari</td>
-                <td>Software Engineering</td>
-                <td>Good</td>
-                <td>Mr. Ezekiel</td>
-                <td>goitutriay@gmail.com</td>
-                <td>100%</td>
-                <td>2003</td>
-                <td>0798745632</td>
-                <td>SI123896</td>
-                <td>24<sup>th</sup>October 2025</td>
-                <td>5</td>
-            <tr>
-                </tr>
-                <td>David</td>
-                <td>Komora</td>
-                <td>19<sup>th</sup>May 2025</td>
-                <td>0790876547</td>
-                <td>Runda</td>
-                <td>Software Engineering</td>
-                <td>Good</td>
-                <td>Mr. Ezekiel</td>
-                <td>komoradavid473@gmail.com</td>
-                <td>100%</td>
-                <td>2010</td>
-                <td>0745324567</td>
-                <td>SI675435</td>
-                <td>24<sup>th</sup>October 2025</td>
-                <td>5</td>
-            <tr>
-                </tr>
-                <td>Alma</td>
-                <td>Wanjiru</td>
-                <td>19<sup>th</sup>May 2025</td>
-                <td>0797168312</td>
-                <td>karen</td>
-                <td>Software Engineering</td>
-                <td>Good</td>
-                <td>Mr. Ezekiel</td>
-                <td>alma.wanjiru8j@gmail.com</td>
-                <td>100%</td>
-                <td>2004</td>
-                <td>0765758393</td>
-                <td>SI324121</td>
-                <td>24<sup>th</sup>October 2025</td>
-                <td>5</td>
-            <tr>
-                </tr>
-                <td>Loncey</td>
-                <td>Ojwang</td>
-                <td>19<sup>th</sup>May 2025</td>
-                <td>0786968588</td>
-                <td>KvsD</td>
-                <td>Software Engineering</td>
-                <td>Good</td>
-                <td>Mr. Ezekiel</td>
-                <td>ojwangloncey@gmail.com</td>
-                <td>100%</td>
-                <td>2005</td>
-                <td>0709987654</td>
-                <td>SI0546472</td>
-                <td>24<sup>th</sup>October 2025</td>
-                <td>5</td>
-            <tr>
-                </tr>
-                <td>Sharline</td>
-                <td>Muhonja</td>
-                <td>19<sup>th</sup>May 2025</td>
-                <td>0776867461</td>
-                <td>Westlands</td>
-                <td>Software Engineering</td>
-                <td>Good</td>
-                <td>Mr. Ezekiel</td>
-                <td>Sharlinenm2020@gmail.com</td>
-                <td>100%</td>
-                <td>2009</td>
-                <td>0756049498</td>
-                <td>SI673565846</td>
-                <td>24<sup>th</sup>October 2025</td>
-                <td>5</td>
-            <tr>
-                </tr>
-                <td>Michael</td>
-                <td>Ochieng</td>
-                <td>19<sup>th</sup>May 2025</td>
-                <td>0745463787</td>
-                <td>Karen</td>
-                <td>Software Engineering</td>
-                <td>Good</td>
-                <td>Mr. Ezekiel</td>
-                <td>michaelwallance4@gmail.com</td>
-                <td>100%</td>
-                <td>2010</td>
-                <td>010225949</td>
-                <td>SI43678569</td>
-                <td>24<sup>th</sup>October 2025</td>
-                <td>5</td>
-            <tr>
-                </tr>
-                <td>Victor</td>
-                <td>Maina</td>
-                <td>17<sup>th</sup>May 2025</td>
-                <td>078452344</td>
-                <td>Kilelelshwa</td>
-                <td>Software Engineering</td>
-                <td>Good</td>
-                <td>Mr. Ezekiel</td>
-                <td>victorsmaina05@gmail.com</td>
-                <td>100%</td>
-                <td>2010</td>
-                <td>0100259498</td>
-                <td>SI0143546</td>
-                <td>24<sup>th</sup>October 2025</td>
-                <td>5</td>
-            <tr>
-                </tr>
-                <td>Brian</td>
-                <td>Gitucha</td>
-                <td>19<sup>th</sup>May 2025</td>
-                <td>0700877619</td>
-                <td>Kilimani</td>
-                <td>Software Engineering</td>
-                <td>Good</td>
-                <td>Mr. Ezekiel</td>
-                <td>briantablet23@gmail.com</td>
-                <td>100%</td>
-                <td>2010</td>
-                <td>0788259498</td>
-                <td>SI9786759</td>
-                <td>24<sup>th</sup>October 2025</td>
-                <td>5</td>
-            <tr>
-                </tr>
-                <td>Britnie</td>
-                <td>Atieno</td>
-                <td>18<sup>th</sup>May 2025</td>
-                <td>0776869403</td>
-                <td>Kileleshwa</td>
-                <td>Software Engineering</td>
-                <td>Good</td>
-                <td>Mr. Ezekiel</td>
-                <td>chosenbright1@gmail.com</td>
-                <td>100%</td>
-                <td>2010</td>
-                <td>0776259493</td>
-                <td>SI006859546</td>
-                <td>24<sup>th</sup>October 2025</td>
-                <td>5</td>
-            <tr>
-                </tr>
-                <td>Neville</td>
-                <td>Munywoki</td>
-                <td>19<sup>th</sup>May 2025</td>
-                <td>07768452332</td>
-                <td>FahariBD</td>
-                <td>Software Engineering</td>
-                <td>Good</td>
-                <td>Mr. Ezekiel</td>
-                <td>nevillenzioki19@gmail.com</td>
-                <td>100%</td>
-                <td>2010</td>
-                <td>0765783939</td>
-                <td>SI97943576</td>
-                <td>24<sup>th</sup>October 2025</td>
-                <td>5</td>
-            <tr>
-                </tr>
-                <td>Luiz</td>
-                <td>Joseph</td>
-                <td>20<sup>th</sup>May 2025</td>
-                <td>0785675848</td>
-                <td>KCITY</td>
-                <td>Software Engineering</td>
-                <td>Good</td>
-                <td>Mr. Ezekiel</td>
-                <td>luizjoseph1506@gmail.com</td>
-                <td>100%</td>
-                <td>2010</td>
-                <td>070008767</td>
-                <td>SI0143546</td>
-                <td>24<sup>th</sup>October 2025</td>
-                <td>5</td>
-            <tr>
-
-                
-            </tr>
-        </tbody>
-    </table>
+    <h1>Apply to Zindua School</h1>
+    <p class="subtitle">Learn to code today and launch a lucrative career in tech.</p>
     
+    <hr>
+    
+    <form>
+        <!-- Name Section -->
+        <div class="name-fields">
+            <div class="form-group">
+                <label for="firstName" class="required">First Name</label>
+                <input type="text" id="firstName" name="firstName" required>
+                <div class="example">Example: Nelson</div>
+            </div>
+            
+            <div class="form-group">
+                <label for="lastName" class="required">Last Name</label>
+                <input type="text" id="lastName" name="lastName" required>
+                <div class="example">Example: Mandela</div>
+            </div>
+        </div>
+        
+        <hr>
+        
+        <!-- Phone Number Section -->
+        <div class="form-group">
+            <label for="phone" class="required">Phone Number</label>
+            <input type="tel" id="phone" name="phone" required>
+            <div class="example">Example: 0722 000111</div>
+        </div>
+        
+        <hr>
+        
+        <!-- Email Section -->
+        <div class="form-group">
+            <label for="email" class="required">Email Address</label>
+            <input type="email" id="email" name="email" required>
+            <div class="example">Example: nelsonmandela@gmail.com</div>
+        </div>
+        
+        <hr>
+        
+        <!-- Program Selection -->
+        <div class="form-group">
+            <label for="program" class="required">Choose your preferred program</label>
+            <select id="program" name="program" required>
+                <option value="">-- Select --</option>
+                <option value="software-engineering">Software Engineering</option>
+                <option value="data-science">Data Science</option>
+                <option value="cybersecurity">Cybersecurity</option>
+            </select>
+        </div>
+        
+        <hr>
+        
+        <!-- Submit Button -->
+        <button type="submit" class="submit-btn">Complete Application</button>
+    </form>
 </body>
 </html>
